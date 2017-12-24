@@ -6,21 +6,21 @@ class KotlinFizzbuzzTest {
 
     @Test
     fun fizzbuzz() {
-       assert("fizzbuzz"  == getSubject().fizzbuzz(15, ""))
+       assert("fizzbuzz"  == getSubject().fizzbuzz(15))
     }
 
     @Test
     fun fizz() {
-        assert("fizz" == getSubject().fizzbuzz(3,""))
+        assert("fizz" == getSubject().fizzbuzz(3))
     }
 
     @Test
     fun buzz() {
-        assert("buzz" == getSubject().fizzbuzz(5,""))
+        assert("buzz" == getSubject().fizzbuzz(5))
     }
 
     @Test
     fun nothing() {
-        assert("1" == getSubject().fizzbuzz(1,""))
+        assert("1" == getSubject().fizzbuzz(1))
     }
 }
