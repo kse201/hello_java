@@ -1,15 +1,15 @@
 package kt.fizzbuzz
 
 class KotlinFizzbuzz {
-    fun fizzbuzz(i: Int ) : String {
+    fun fizzbuzz(i: Int) : String {
         return if ( i%3 == 0 && i % 5 == 0) {
-            "fizzbuzz";
+            "fizzbuzz"
         } else if ( i%3 == 0) {
-            "fizz";
+            "fizz"
         } else if ( i %5 == 0 ){
-            "buzz";
+            "buzz"
         } else  {
-            i.toString();
+            i.toString()
         }
     }
 }

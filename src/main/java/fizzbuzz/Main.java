@@ -18,7 +18,7 @@ public class Main {
      */
     public static void main(final String[] args) {
         for (int i = 0; i < LIMIT; i++) {
-            String output = "";
+            String output;
             KotlinFizzbuzz ktFizzbuzz = new KotlinFizzbuzz();
             output = ktFizzbuzz.fizzbuzz(i);
 
