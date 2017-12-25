@@ -2,13 +2,13 @@ package fizzbuzz
 
 class GroovyFizzbuzz {
     static String fizzbuzz(int i, String[] output) {
-        if ( i % 3 == 0 && i % 5 == 0) {
+        if (i % 3 == 0 && i % 5 == 0) {
             output += "fizzbuzz";
-        } else if ( i % 3 == 0) {
+        } else if (i % 3 == 0) {
             output += "fizz";
-        } else if ( i % 5 == 0 ){
+        } else if (i % 5 == 0) {
             output += "buzz";
-        } else  {
+        } else {
             output += i;
         }
         return output;
